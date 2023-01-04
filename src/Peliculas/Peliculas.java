@@ -15,7 +15,6 @@ public class Peliculas {
         Pelicula pelicula3 = new Pelicula("Avatar 2 el camino del agua", "Ciencia ficción/Acción", "195min", "APT(PG)", "James Cameron", "Jake Sully vive con su nueva familia formada en el planeta Pandora. Una vez que una amenaza familiar regresa para acabar con lo que se había iniciado anteriormente, Jake debe trabajar con Neytiri y el ejército de la raza Na'vi para proteger su planeta.", "https://cinemarkmedia.modyocdn.com/pe/300x400/89038.jpg?version=1672790400000");
         peliculas.add(pelicula3);
 
-        System.out.println();
     }
 
     public List<Pelicula> getPeliculas() {
