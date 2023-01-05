@@ -1,6 +1,5 @@
 package Users;
 
-import Pelicula.Pelicula;
 import User.User;
 
 import java.util.ArrayList;
@@ -14,8 +13,10 @@ public class Users {
         usuarios.add(user1);
         User user2 = new User("usuario2", "ct", "e_2019200648G@uncp.edu.pe", "K3v1njhosepct");
         usuarios.add(user2);
-        User user3 = new User("usuario3", "ct", "e_2019200647G@uncp.edu.pe", "K3v1njhosepct");
+        User user3 = new User("usuario3", "ct", "admin", "admin");
+        
         usuarios.add(user3);
+
 
     }
 

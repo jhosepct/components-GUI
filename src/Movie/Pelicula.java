@@ -1,4 +1,4 @@
-package Pelicula;
+package Movie;
 
 public class Pelicula {
     private String nombre;

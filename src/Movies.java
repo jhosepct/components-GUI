@@ -3,8 +3,8 @@ import java.awt.*;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-import Pelicula.Pelicula;
-import Peliculas.Peliculas;
+import Movie.Pelicula;
+import Movies.Peliculas;
 
 public class Movies extends javax.swing.JFrame {
     private JLabel titleLabel;
@@ -43,12 +43,9 @@ public class Movies extends javax.swing.JFrame {
                 //setImageButton(button, pelicula.getImagen());
                 button.setIcon(new ImageIcon(new URL(pelicula.getImagen())));
                 button.addActionListener(e -> {
-                    DetailsMovie frame = new DetailsMovie(pelicula);
+                    DetailsMovieDialog frame = new DetailsMovieDialog(pelicula);
                     frame.setTitle("DetailsMovie");
                     frame.setVisible(true);
-                    frame.setBounds(10, 10, 700, 800);
-                    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-                    frame.setResizable(false);
                 });
                 i++;
                 //button.setIcon(new ImageIcon(new URL("https://cinemarkmedia.modyocdn.com/pe/300x400/91072.jpg?version=1672790400000")));

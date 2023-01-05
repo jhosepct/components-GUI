@@ -99,14 +99,10 @@ public class Signup extends javax.swing.JFrame {
             // validar correo
             if (!Validate.emailStudent(email)) {
                 error += "- Ingrese un correo valido (example@uncp.edu.pe)\n";
-                //validateEmail.setText("Ingrese un correo valido (example@uncp.edu.pe)");
-                //validateEmail.setVisible(true);
             }
             // validar password
             if (!Validate.password(password)) {
                 error += "- Ingrese una contraseña seguro\n";
-                //validatePassword.setText("Ingrese un pasword seguro");
-                //validatePassword.setVisible(true);
             }
 
             if (!error.equals("")) {

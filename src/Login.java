@@ -1,4 +1,3 @@
-import RoundedBorder.RoundedBorder;
 import User.User;
 
 import javax.swing.*;
@@ -23,8 +22,6 @@ public class Login extends javax.swing.JFrame {
         setLayoutManager();
         // Función para modificar sus posiciones
         setLocationAndSize();
-        //
-        setDesign();
         // Función para validar al usuario
         validateUser();
         // Función para mostrar contraseña checkbox
@@ -94,19 +91,9 @@ public class Login extends javax.swing.JFrame {
                 }
 
             }
-
-            {/*
-
-            System.out.println("User: " + user);
-            System.out.println("Password: " + password);
-            */
-            }
         });
     }
 
-    public void setDesign() {
-        //loginButton.setBorder(new RoundedBorder(40));
-    }
 
     public void changeInterfaceSignup() {
 
