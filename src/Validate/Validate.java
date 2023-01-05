@@ -26,7 +26,7 @@ public class Validate {
     }
 
     public static boolean namePerson(String name){
-        String regex = "^[a-zA-Z \\-\\.\\u00f1\u00d1\']*$";
+        String regex = "^[a-zA-ZñÑáéíóúÁÉÍÓÚ \\-\\.\\u00f1\u00d1\']*$";
 
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(name);
